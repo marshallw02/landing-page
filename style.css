@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    position: fixed;
+    top: 0;
+    left: 0%;
+    right: 0%;
+}
+
+.header title {
+    margin-right: auto;
+}
